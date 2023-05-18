@@ -6,3 +6,38 @@ body {
 a {
   color: #00B7FF;
 }
+
+.title {
+  text-align: center;
+  font-size: 60px;
+}
+.cinema {
+  align-items: center;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-button {
+  position: absolute;
+  align-items: right;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 24px; 
+}
+
+  .movie-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust the margin as per your preference */
+  }
+
+
+
+  .image-container img {
+    width: 100%; /* Adjust the image width as per your preference */
+
+  }
